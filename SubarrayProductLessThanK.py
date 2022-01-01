@@ -2,6 +2,7 @@ class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         prod=1
         count=0
+        #sliding window
         if k==0:
             return 0
         i=0
